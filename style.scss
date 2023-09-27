@@ -15,7 +15,7 @@ body {
 
 nav {
   position: relative;
-  margin: 2rem 1rem;
+  margin: 1rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -119,10 +119,11 @@ footer {
 
 @media screen and (min-width: 548px) {
   body {
-    margin: 2rem 4rem;
+    margin: 2rem 0 0 0;
   }
 
   nav {
+    padding: 0.2rem 4rem;
     .company {
       .company_logo {
         width: 42px;
