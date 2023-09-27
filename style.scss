@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+$baseColor: #c6d8d3;
+
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+body {
+  background-color: $baseColor;
+}
+
+nav {
+  position: relative;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  .company {
+    display: flex;
+    align-items: center;
+    .company_logo {
+      width: 36px;
+      aspect-ratio: 1/1;
+    }
+    .company_name {
+      margin-left: 0.6rem;
+      font-size: 1.4rem;
+      font-weight: bold;
+      font-family: "Oswald", sans-serif;
+    }
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .link {
+      width: 28px;
+      height: 28px;
+    }
+    .phone-link {
+      width: 26px;
+      height: 26px;
+      margin: 0 0.1rem;
+    }
+  }
+}
+
+.hero {
+  width: min(90%, 800px);
+  margin: 4rem auto;
+  margin-bottom: 2rem;
+
+  font-size: 0.8rem;
+  .hero-cta {
+    margin-top: 1rem;
+    padding: 0.8rem 0;
+    background-color: black;
+    color: $baseColor;
+    text-align: center;
+    border-radius: 2rem;
+  }
+}
+
+.highlight {
+  width: min(90%, 800px);
+  margin: 4rem auto;
+}
+.title {
+  background-color: black;
+  color: $baseColor;
+  text-align: center;
+  padding: 1rem 0;
+
+  font-size: 0.8rem;
+}
+
+.solution-wrap {
+  margin: 4rem 0;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.solution {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+.solution-title {
+  font-size: 1.2rem;
+
+  font-weight: 500;
+}
+
+.icon {
+  height: 48px;
+  aspect-ratio: 1/1;
+}
+
+.solution-content {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #000;
+  color: $baseColor;
+  font-size: 0.6rem;
+}
+
+@media screen and (min-width: 548px) {
+  body {
+    margin: 2rem 4rem;
+  }
+
+  nav {
+    .company {
+      .company_logo {
+        width: 42px;
+        aspect-ratio: 1/1;
+      }
+      .company_name {
+        margin-left: 0.6rem;
+      }
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 1.8rem;
+      .link {
+        width: 36px;
+        height: 36px;
+      }
+      .phone-link {
+        width: 34px;
+        height: 34px;
+        margin: 0 0.1rem;
+      }
+    }
+  }
+
+  .hero {
+    text-align: center;
+    margin: 10rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.1rem;
+    .hero-cta {
+      margin-top: 2rem;
+      padding: 1rem 0;
+      background-color: black;
+      color: $baseColor;
+      text-align: center;
+      width: 60%;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .solution-wrap {
+    margin-top: 5rem;
+  }
+
+  .solution-title {
+    font-size: 1.4rem;
+  }
+  .icon {
+    height: 64px;
+    aspect-ratio: 1/1;
+  }
+  .solution-content {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+}
