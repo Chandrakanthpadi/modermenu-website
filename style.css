@@ -11,7 +11,7 @@ body {
 
 nav {
   position: relative;
-  margin: 1rem 1rem;
+  margin: 2.4rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -49,7 +49,7 @@ nav .links .phone-link {
   width: min(90%, 800px);
   margin: 4rem auto;
   margin-bottom: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .hero .hero-cta {
   margin-top: 1rem;
@@ -78,6 +78,7 @@ nav .links .phone-link {
   gap: 3rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
 }
 
 .solution {
@@ -101,7 +102,7 @@ nav .links .phone-link {
 
 .solution-content {
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 footer {
@@ -110,6 +111,49 @@ footer {
   background-color: #000;
   color: #c6d8d3;
   font-size: 0.6rem;
+}
+
+.profile_pic {
+  width: 196px;
+}
+
+.profile {
+  width: min(90%, 800px);
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.profile_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.profile_title {
+  text-align: center;
+}
+
+.profile_title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.profile_tag {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.profile_intro {
+  margin-bottom: 0.4rem;
+}
+
+.profile_content {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 548px) {
@@ -163,6 +207,7 @@ footer {
   }
   .solution-wrap {
     margin-top: 5rem;
+    margin-bottom: 8rem;
   }
   .solution-title {
     font-size: 1.4rem;
@@ -174,5 +219,19 @@ footer {
   .solution-content {
     margin-top: 1rem;
     font-size: 1rem;
+  }
+  .profile_part {
+    flex-direction: row;
+    margin-top: 4rem;
+  }
+  .profile_title {
+    text-align: left;
+  }
+  .profile_tag {
+    text-align: left;
+  }
+  .profile_content {
+    text-align: left;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
