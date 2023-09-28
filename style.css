@@ -11,7 +11,7 @@ body {
 
 nav {
   position: relative;
-  margin: 2.4rem 1rem;
+  margin: 2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -49,10 +49,9 @@ nav .links .phone-link {
   width: min(90%, 800px);
   margin: 4rem auto;
   margin-bottom: 2rem;
-  font-size: 0.9rem;
 }
 .hero .hero-cta {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 0.8rem 0;
   background-color: black;
   color: #c6d8d3;
@@ -90,6 +89,10 @@ nav .links .phone-link {
   font-size: 0.9rem;
 }
 
+.hero-content {
+  font-size: 0.8rem;
+}
+
 .solution-title {
   font-size: 1.2rem;
   font-weight: 500;
@@ -120,22 +123,19 @@ footer {
 .profile {
   width: min(90%, 800px);
   margin: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 .profile_part {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   gap: 2rem;
 }
 
 .profile_title {
   text-align: center;
-}
-
-.profile_title {
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -150,10 +150,10 @@ footer {
 }
 
 .profile_content {
-  text-align: center;
-  width: 90%;
+  width: 85%;
   margin: auto;
   font-size: 0.9rem;
+  text-align: justify;
 }
 
 @media screen and (min-width: 548px) {
@@ -233,5 +233,8 @@ footer {
   .profile_content {
     text-align: left;
     width: 100%;
+  }
+  .hero-content {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
