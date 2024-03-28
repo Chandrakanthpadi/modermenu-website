@@ -4,8 +4,8 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-$baseColor: #c6d8d3;
-
+// $baseColor: #c6d8d3;
+$baseColor: #fff;
 // font-family: 'Oswald', sans-serif;
 // font-family: 'Poppins', sans-serif;
 
@@ -30,7 +30,8 @@ nav {
       margin-left: 0.6rem;
       font-size: 1.4rem;
       font-weight: bold;
-      font-family: "Oswald", sans-serif;
+      font-family: "Konkhmer Sleokchher", system-ui;
+      font-size: 1.6rem;
     }
   }
   .links {
@@ -53,13 +54,27 @@ nav {
   width: min(90%, 800px);
   margin: 4rem auto;
   margin-bottom: 2rem;
+  .hero-title {
+    margin-bottom: 0.6rem;
+    text-align: center;
+    color: #1b998b;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  .hero-content {
+    text-align: center;
+  }
   .hero-cta {
     margin-top: 2rem;
     padding: 0.8rem 0;
-    background-color: black;
+    background-color: #1b998b;
     color: $baseColor;
     text-align: center;
     border-radius: 2rem;
+    .app-link {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
 
@@ -68,7 +83,7 @@ nav {
   margin: 4rem auto;
 }
 .title {
-  background-color: black;
+  background-color: #1b998b;
   color: $baseColor;
   text-align: center;
   padding: 1rem 0;
@@ -89,10 +104,6 @@ nav {
   p {
     font-size: 0.9rem;
   }
-}
-
-.hero-content {
-  font-size: 0.8rem;
 }
 
 .solution-title {
@@ -201,12 +212,15 @@ footer {
     .hero-cta {
       margin-top: 2rem;
       padding: 1rem 0;
-      background-color: black;
+      background-color: #1b998b;
       color: $baseColor;
       text-align: center;
       width: 60%;
       font-size: 1.2rem;
       font-weight: 500;
+    }
+    .hero-title {
+      font-size: 2rem;
     }
   }
   .title {
